@@ -24,7 +24,7 @@ module Haml
       private
 
       def available_views
-        %w(index edit show new)
+        %w(index edit show new _table _row)
       end
 
       def handler
